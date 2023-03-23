@@ -2,6 +2,7 @@ $(function(){
     $('#projects').hide();
     $('#links').hide();
     $('#about-me').show();
+    $('#a-about-me').text(" ー ");
 
     $('#a-about-me').click(function(e){
         e.preventDefault();
@@ -16,6 +17,10 @@ $(function(){
         $('#projects').hide();
         $('#links').hide();
         $('#about-me').show(400);
+
+        $('#a-about-me').text(" ー ");
+        $('#a-projects').text("Projects");
+        $('#a-links').text("Links");
     })
 
     $('#a-projects').click(function(e){
@@ -31,6 +36,10 @@ $(function(){
         $('#about-me').hide();
         $('#links').hide();
         $('#projects').show(400);
+
+        $('#a-projects').text(" ー ");
+        $('#a-about-me').text("About Me");
+        $('#a-links').text("Links");
     })
 
     $('#a-links').click(function(e){
@@ -46,5 +55,9 @@ $(function(){
         $('#projects').hide();
         $('#about-me').hide();
         $('#links').show(400);
+
+        $('#a-links').text(" ー ");
+        $('#a-projects').text("Projects");
+        $('#a-about-me').text("About Me");
     })
 });
