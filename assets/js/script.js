@@ -69,7 +69,7 @@ $(function(){
             $('#a-light-dark').text('Toggle Dark');
 
             // Change bg image
-            const imageUrl = "static/images/light.jpg"
+            const imageUrl = "assets/images/light.jpg"
             $('body').css({
                 "background-image": "linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("+imageUrl+")",
                 "background-repeat": "no-repeat",
@@ -83,7 +83,7 @@ $(function(){
             $('#a-light-dark').text('Toggle Light');
 
             // Change bg image
-            const imageUrl = "static/images/dark.jpg"
+            const imageUrl = "assets/images/dark.jpg"
             $('body').css({
                 "background-image": "linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ),url("+imageUrl+")",
                 "background-repeat": "no-repeat",
