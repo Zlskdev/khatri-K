@@ -25,3 +25,7 @@ body {
     font-size: 18px;
     font-family: 'Titillium Web', sans-serif;
 }
+
+code {
+    color: white;
+}
